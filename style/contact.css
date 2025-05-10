@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+aside {
+	background-image: url(../image/contact/contact.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+aside h1{
+    text-align: center;
+    max-width: 1160px;
+    margin: 0 auto 75px;
+    font: 400 60px "impact";
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    position: relative;
+    color: red;
+	text-shadow: 2px 2px 2px black;
+	top: 55px;
+}
+
+aside p{
+	text-align: center;
+	font: 400 15px "didot";
+    color: red;
+	text-shadow: 2px 2px 2px black;
+}
+
+html {
+	background-color: #222222;
+}
+
+.formulaire{
+	color: black;
+}
+
+.maps iframe{
+	width: 600px ; 
+	height: 450px ; 
+	border:0;
+	overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.maps {
+	text-align: center;
+}
+main section h1{
+	text-align: center;
+    max-width: 1160px;
+    margin: 0 auto 75px;
+    font: 400 60px "impact";
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    position: relative;
+    color: red;
+	text-shadow: 2px 2px 2px black;
+}
+
+
+main form {
+    background-color: #eee;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+main form label {
+    margin-top: 1.5rem;
+    display: inline-block;
+    width: 40%;
+    font-weight: bold;
+}
+
+
+.choix {
+  margin-top: -1.5rem;
+  display: inline-block;
+  width: 21%;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 350px) and (max-width: 1600px) {
+    aside, main {
+        width: 100%;
+    }
+
+    form {
+        max-width: 100%;
+    }
+	
+	
+}
+
+@media (min-width:901px){
+iframe{
+width:100%;
+height:100%;
+}
+}
+
+@media (max-width:900px){
+    iframe{
+   	 width:20%;
+   	 height: 20%;
+    }
+}

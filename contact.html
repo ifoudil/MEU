@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>MEU</title>
+		<link rel="stylesheet" href="./style/contact.css" />
+		<link rel="stylesheet" href="./style/commun.css" />
+	</head>
+	<body>
+		<header>
+		    <nav class="navbar">
+   			 <a href="./index.html">
+   				 <img class="image" src="./image/logo.png" alt="logo">
+   			 </a>    
+   			 <div class="nav-links">
+   			 <ul>
+  					 <li><a href="./index.html" >ACCUEIL</a></li>
+  					 <li><a href="./formation.html">FORMATION</a></li>
+  					 <li><a href="./enseignant.html" >ENSEIGNANT</a></li>
+  					 <li class="ici"><a href="./contact.html">CONTACT</a></li>
+   			 </ul>
+   			 </div>
+   		    </nav>
+		</header>
+		<aside>
+			<h1>Contact</h1>
+			<div class="maps">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5807.625528221487!2d5.3577414!3d43.2972426!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c15c3f8ae337%3A0x7758d9ff4d364eea!2sInvader%20MARS%2051!5e0!3m2!1sfr!2sfr!4v1701329485973!5m2!1sfr!2sfr"
+   				 style="border:0;" allowfullscreen loading="lazy"></iframe>
+			</div>
+			<p>Marsian Exolife University</p>
+			<p>3 Mariner 4 Street</p>
+			<p>Ormos</p>
+			<p>Mars</p>
+			<p>Phone: 0899 03 03 03</p>
+			<p>Mail: contact@marsian-exolife-university.com</p>
+		</aside>
+		<main>
+			<section>
+				<h1>Ecrivez nous</h1>
+			</section>
+			<section>
+				<article>
+					<form action="https://webdev.iut-orsay.fr/r102/tests/formulaire/test_formulaire.php" method="post">
+						<div class="formulaire">
+						<label for="u_message">
+							Cela concerne quelle formation ?
+						</label>
+						<select id="u_formation" name="formation choisi">
+							<option value="bachelor">Bachelor</option>
+							<option value="prépa">Prépa intégré</option>
+							<option value="master">Master</option>
+							<option value="doctorat">Doctorat</option>
+						</select>
+						<fieldset>
+							<input id="in_radio_monsieur" type="radio" name="sexe" value="Mr">
+							<div class="choix">
+							<label for="in_radio_monsieur">
+								Mr
+							</label>
+							</div>
+							<input id="in_radio_madame" type="radio" name="sexe" value="Mme">
+							<div class="choix">
+							<label for="in_radio_madame">
+								Mme
+							</label>
+							</div>
+							<input id="in_radio_autre" type="radio" name="sexe" value="Autre">
+							<div class="choix">
+							<label for="in_radio_autre">
+								Autre
+							</label>
+							</div>
+						</fieldset>
+						<label for="u_name">
+							Nom
+						</label>
+						<input type="text" id="u_name" name="nom" size="60" placeholder="Nom"  required="">
+						<label for="u_firstname">
+							Prénom
+						</label>
+						<input type="text" id="u_firstname" name="prénom" size="60" placeholder="Prénom"  required="">
+						<label for="u_mail">
+							Adresse Mail
+						</label>
+						<input type="text" id="u_mail" name="mail" size="60" placeholder="Email"  required="">
+						<label for="u_country">
+							Pays de résidence
+						</label>
+						<input type="text" id="u_country" name="pays" size="60" placeholder="Pays"  required="">
+						<fieldset>
+							<input id="in_radio_eleve" type="radio" name="statut" value="eleve">
+							<div class="choix">
+							<label for="in_radio_eleve">
+								Je suis un élève
+							</label>
+							</div>
+							<input id="in_radio_parent" type="radio" name="statut" value="parent">
+							<div class="choix">
+							<label for="in_radio_parent">
+								Je suis un parent
+							</label>
+							</div>
+						</fieldset>
+						<label for="u_message">
+							Votre message
+						</label>
+						<p>
+							<textarea id="u_message" name="message" rows="5" cols="60" placeholder="Message" required="">
+							</textarea>
+						</p>
+						<input type="submit" value="Envoyer">
+						</div>
+					</form>
+				</article>
+			</section>
+		</main>
+		<footer>
+			<div>
+				<h3>Equipe A7:</h3>
+				<p>Foudil Islem</p>
+				<p>Or Rachana</p>
+			</div>
+			<div>
+				<a href="./rapport/rapport cwac-4.pdf" target="_blank" download="rapport">rapport (format: pdf)</a>
+				<br>
+				<a href="./rapport/rapport cwac(4).docx" target="_blank" download="rapport">rapport (format: traitement de texte)</a>
+			</div>
+	</footer>
+	</body>
+</html>

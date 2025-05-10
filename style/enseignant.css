@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+.titre {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.titre h1 {
+	text-align: center;
+	font-size: 2rem;
+	color: #d13a3a;
+	text-transform: uppercase;
+	text-shadow: #fff 1px 1px 1px;
+	font-family: Impact, sans-serif;
+}
+
+.image-enseignant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-enseignant img {
+    width: 40%;
+    height: auto;
+}
+
+.line {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.prof {
+    width: 300px;
+    height: 400px;
+    border: solid;
+    border-color: #d13a3a;
+    border-radius: 30px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.prof:hover {
+    z-index: 3;
+    background: rgba(255, 253, 253, 0.442);
+    width: 305px;
+    height: 405px;
+    /* width: 300px;
+    height: 400px;
+    border: solid;
+    border-color: #d13a3a;
+    border-radius: 30px;
+    margin-right: 100px;
+    margin-top: 50px; */
+}
+
+.prof img {
+    z-index: -1;
+    border-radius: 30px;
+    height: 290px;
+    width: 300px;
+}
+
+.prof img:hover {
+    opacity: 0.442;
+    border-radius: 30px;
+    height: 295px;
+    width: 305px;
+}
+
+/* .prof p{
+    text-align: center;
+    color: #fff;
+	font-family: century;
+} */
+
+/*
+.class .prof{
+    display:flex;
+    align-items: center;
+}
+
+.couleur{
+    color:#fff;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.prof{
+	margin-top: 5rem;
+}
+*/
+
+.prof h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Cambria;
+    color: #d13a3a;
+    text-shadow: #ffdada 1px 1px 1px;
+	font-family: Impact, sans-serif;
+}
+
+.prof h3{
+    text-align: center;
+    color: #fff;
+    /* text-shadow: #b3b3b3 1px 1px 1px; */
+	font-family: Impact;
+}
+
+/* @media (min-width:901px){
+	.titre{
+		margin:0;
+		padding-top:10%;
+		/* padding-left:20%; 
+	}
+} */
+
+/* @media (max-width:900px){
+	.titre{
+		margin:0;
+		padding-top:30%;
+		/* padding-left:20%; 
+	}
+}  */
+
+/* .enseignants{
+	margin: 2rem;
+    height: 400px;
+    width: 80%;
+	margin-left: -2rem;
+} */
+
+/* h1{
+	padding-left: 2rem;
+	font-family:  impact ;
+} */
